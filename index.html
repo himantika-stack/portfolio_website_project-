@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Himantika Tanwar | Developer Portfolio</title>
+ 
+<!-- Bootstrap 5 -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+<!-- Bootstrap Icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+ 
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#hero">HT<span>.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav gap-1">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+ 
+<!-- HERO -->
+<section id="hero">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="container" style="position:relative;z-index:2;">
+    <div class="row align-items-center">
+      <div class="col-lg-8">
+        <div class="hero-tag">// Available for opportunities</div>
+        <h1 class="hero-name">
+          <span class="accent">Himantika</span><br/>
+          <span class="accent2">Tanwar</span>
+        </h1>
+        <p class="hero-role">
+          &gt; <span id="typed-text"></span>
+        </p>
+        <p class="hero-desc">
+          MCA student & passionate developer building real-world web solutions.
+          C++ problem-solver, LeetCode grinder, and frontend enthusiast from Ghaziabad, UP.
+        </p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn-glow">View Projects</a>
+          <a href="#contact" class="btn-ghost">Get In Touch</a>
+        </div>
+        <div class="stats-row">
+          <div class="stat-item">
+            <div class="stat-number" id="lc-counter">0</div>
+            <div class="stat-label">LeetCode Problems</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">2</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">5<span style="color:var(--accent2)">+</span></div>
+            <div class="stat-label">Tech Skills</div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 d-none d-lg-flex justify-content-center align-items-center">
+        <!-- Code block decoration -->
+        <div style="background:var(--card-bg);border:1px solid var(--border);padding:2rem;font-size:0.75rem;line-height:2;min-width:280px;">
+          <div style="color:var(--muted);margin-bottom:1rem;font-size:0.6rem;letter-spacing:2px;">// himantika.js</div>
+          <div><span style="color:#7c5cfc">const</span> <span style="color:var(--accent)">dev</span> = {</div>
+          <div style="padding-left:1rem;color:var(--muted)">
+            <div>name: <span style="color:#a8e6cf">"Himantika"</span>,</div>
+            <div>role: <span style="color:#a8e6cf">"Full-Stack Dev"</span>,</div>
+            <div>loves: [<span style="color:#a8e6cf">"C++"</span>, <span style="color:#a8e6cf">"DSA"</span>],</div>
+            <div>leetcode: <span style="color:#ffa116">60+</span>,</div>
+            <div>status: <span style="color:#a8e6cf">"learning∞"</span></div>
+          </div>
+          <div>};</div>
+          <div style="margin-top:1rem;color:var(--muted)">
+            <span style="color:#7c5cfc">dev</span>.buildAwesome();
+          </div>
+          <div style="margin-top:0.5rem;color:var(--accent);font-size:0.65rem;">
+            ✓ Compiled successfully
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+<section id="about">
+  <div class="container">
+    <div class="section-label reveal">About Me</div>
+    <h2 class="section-title reveal">Who I <em>Am</em></h2>
+    <div class="row g-4">
+      <div class="col-lg-7 reveal">
+        <div class="about-card h-100">
+          <p class="about-text">
+            Hey! I'm <strong>Himantika Tanwar</strong>, a Computer Application student currently pursuing my
+            <strong>Master's (MCA)</strong> from ABES Engineering College, Ghaziabad.
+            I completed my <strong>BCA with 68.37%</strong> and have been coding since school.
+          </p>
+          <p class="about-text" style="margin-top:1.2rem;">
+            I'm passionate about <strong>problem solving</strong> — from cracking data structures on
+            <strong>LeetCode (60+ problems)</strong> to building full dynamic web applications.
+            I enjoy writing clean, efficient <strong>C++ code</strong> and crafting beautiful frontends
+            with <strong>HTML, CSS & JavaScript</strong>.
+          </p>
+          <p class="about-text" style="margin-top:1.2rem;">
+            Currently levelling up my <strong>Java</strong> skills and exploring backend development.
+            Fluent in <strong>Hindi & English</strong>, and always open to collaborations and new challenges!
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-5 reveal">
+        <div class="about-card h-100">
+          <div class="section-label" style="margin-bottom:1.5rem;">Quick Info</div>
+          <div class="info-grid">
+            <div class="info-item">
+              <div class="info-label">Location</div>
+              <div class="info-value">Ghaziabad, UP</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Degree</div>
+              <div class="info-value">MCA (Pursuing)</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Phone</div>
+              <div class="info-value">+91 9991855046</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Email</div>
+              <div class="info-value" style="font-size:0.72rem;">himantikatanwar258<br/>@gmail.com</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">Languages</div>
+              <div class="info-value">Hindi, English</div>
+            </div>
+            <div class="info-item">
+              <div class="info-label">LeetCode</div>
+              <div class="info-value" style="color:#ffa116;">60+ Solved ⚡</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+<section id="skills">
+  <div class="container">
+    <div class="section-label reveal">Technical Arsenal</div>
+    <h2 class="section-title reveal">My <em>Skills</em></h2>
+ 
+    <div class="skills-grid reveal" id="skillsGrid">
+      
+    </div>
+ 
+    
+    <div class="row mt-5">
+      <div class="col-lg-8 mx-auto reveal">
+        <div class="leetcode-card">
+          <div class="row align-items-center g-4">
+            <div class="col-md-6">
+              <div class="section-label" style="color:#ffa116;">
+                <span style="width:30px;height:1px;background:#ffa116;display:inline-block;"></span>
+                Competitive Coding
+              </div>
+              <h3 style="font-family:var(--font-display);font-size:1.8rem;font-weight:800;margin-bottom:0.5rem;">
+                LeetCode Profile
+              </h3>
+              <p style="color:var(--muted);font-size:0.82rem;line-height:1.7;">
+                Consistently solving algorithmic challenges, focusing on arrays, strings, recursion, and OOP-based problems.
+              </p>
+              <div style="margin-top:1.2rem;">
+                <div style="display:flex;gap:0.5rem;flex-wrap:wrap;">
+                  <span style="background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.2);color:#22c55e;font-size:0.65rem;letter-spacing:1px;padding:4px 10px;">EASY ✓</span>
+                  <span style="background:rgba(255,161,22,0.1);border:1px solid rgba(255,161,22,0.2);color:#ffa116;font-size:0.65rem;letter-spacing:1px;padding:4px 10px;">MEDIUM ⚡</span>
+                  <span style="background:rgba(239,68,68,0.08);border:1px solid rgba(239,68,68,0.15);color:#ef4444;font-size:0.65rem;letter-spacing:1px;padding:4px 10px;">HARD 🎯</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="row g-3">
+                <div class="col-6">
+                  <div class="lc-stat">
+                    <div class="lc-number">60<span style="font-size:1.2rem;">+</span></div>
+                    <div class="lc-label">Problems</div>
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="lc-stat">
+                    <div class="lc-number" style="color:#22c55e;font-size:1.8rem;">Active</div>
+                    <div class="lc-label">Status</div>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div style="background:rgba(255,161,22,0.04);border:1px solid rgba(255,161,22,0.1);padding:1rem;text-align:center;">
+                    <div style="font-size:0.65rem;letter-spacing:2px;color:var(--muted);text-transform:uppercase;margin-bottom:0.5rem;">Focus Area</div>
+                    <div style="font-family:var(--font-display);color:#ffa116;">DSA + OOPs + Logic</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+<section id="projects">
+  <div class="container">
+    <div class="section-label reveal">What I've Built</div>
+    <h2 class="section-title reveal">Featured <em>Projects</em></h2>
+    <div class="row g-4">
+      <div class="col-md-6 reveal">
+        <div class="project-card h-100">
+          <div class="project-num">01</div>
+          <div class="project-tag">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+          <h3 class="project-title">Hotel Management Website</h3>
+          <p class="project-desc">
+            A dynamic, fully interactive hotel management website with room booking UI,
+            availability display, and responsive design. Built with vanilla JavaScript
+            for real-time DOM manipulation — no frameworks, pure logic.
+          </p>
+          <div style="margin-top:1.5rem;display:flex;gap:0.8rem;flex-wrap:wrap;">
+            <span style="font-size:0.65rem;color:var(--accent);letter-spacing:1px;">Dynamic UI</span>
+            <span style="font-size:0.65rem;color:var(--muted);">•</span>
+            <span style="font-size:0.65rem;color:var(--accent);letter-spacing:1px;">Responsive</span>
+            <span style="font-size:0.65rem;color:var(--muted);">•</span>
+            <span style="font-size:0.65rem;color:var(--accent);letter-spacing:1px;">Vanilla JS</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 reveal">
+        <div class="project-card h-100">
+          <div class="project-num">02</div>
+          <div class="project-tag">
+            <span>HTML</span><span>CSS</span>
+          </div>
+          <h3 class="project-title">Travel Website</h3>
+          <p class="project-desc">
+            A visually engaging travel destination website with modern layout,
+            destination cards, and smooth navigation. Focused on clean UI/UX design
+            principles, semantic HTML structure, and responsive mobile-first CSS.
+          </p>
+          <div style="margin-top:1.5rem;display:flex;gap:0.8rem;flex-wrap:wrap;">
+            <span style="font-size:0.65rem;color:var(--accent);letter-spacing:1px;">UI/UX Design</span>
+            <span style="font-size:0.65rem;color:var(--muted);">•</span>
+            <span style="font-size:0.65rem;color:var(--accent);letter-spacing:1px;">Mobile-First</span>
+            <span style="font-size:0.65rem;color:var(--accent);letter-spacing:1px;">Semantic HTML</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+<section id="education">
+  <div class="container">
+    <div class="section-label reveal">Academic Journey</div>
+    <h2 class="section-title reveal">My <em>Education</em></h2>
+    <div class="row">
+      <div class="col-lg-7 reveal">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-year">Sep 2027 – Present</div>
+            <div class="timeline-title">Master of Computer Applications (MCA)</div>
+            <div class="timeline-sub">ABES Engineering College, Ghaziabad</div>
+            <span class="timeline-score">Currently Pursuing</span>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">Completed June 2025</div>
+            <div class="timeline-title">Bachelor of Computer Applications (BCA)</div>
+            <div class="timeline-sub">Aadrash Mahila Mahavidyalaya</div>
+            <span class="timeline-score">68.37%</span>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">July 2022</div>
+            <div class="timeline-title">Class XII — Science</div>
+            <div class="timeline-sub">Vaish Model Sr. Sec. School</div>
+            <span class="timeline-score">80.6%</span>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-year">July 2020</div>
+            <div class="timeline-title">Class X</div>
+            <div class="timeline-sub">Vaish Model Sr. Sec. School</div>
+            <span class="timeline-score">64.3%</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-flex align-items-center justify-content-center reveal">
+        <div style="text-align:center;">
+          <div style="font-family:var(--font-display);font-size:6rem;font-weight:800;color:rgba(0,255,225,0.06);line-height:1;">EDU<br/>CATE</div>
+          <div style="margin-top:1rem;">
+            <div style="font-size:0.65rem;letter-spacing:3px;color:var(--muted);text-transform:uppercase;">Always be learning</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label reveal">Let's Connect</div>
+    <h2 class="section-title reveal">Get In <em>Touch</em></h2>
+    <div class="row">
+      <div class="col-lg-6 mx-auto reveal">
+        <div class="contact-card">
+          <p style="color:var(--muted);font-size:0.85rem;margin-bottom:2rem;">
+            Open to internships, collaborations, and new projects.<br/>
+            Don't hesitate to reach out!
+          </p>
+          <a href="mailto:himantikatanwar258@gmail.com" class="contact-link">
+            <i class="bi bi-envelope-fill ci"></i>
+            himantikatanwar258@gmail.com
+          </a>
+          <a href="tel:+919991855046" class="contact-link">
+            <i class="bi bi-telephone-fill ci"></i>
+            +91 9991855046
+          </a>
+          <a href="https://www.linkedin.com/in/himantika-tanwar-2676b5308" target="_blank" class="contact-link">
+            <i class="bi bi-linkedin ci" style="color:#0a66c2;"></i>
+            linkedin.com/in/himantika-tanwar
+          </a>
+          <a href="https://github.com/himantika-stack" target="_blank" class="contact-link">
+            <i class="bi bi-github ci" style="color:#ffffff;"></i>
+            github.com/himantika-stack
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+ 
+
+<footer>
+  <div class="container">
+    <div>Designed & Built by <span>Himantika Tanwar</span> &nbsp;|&nbsp; 2025</div>
+    <div style="margin-top:0.5rem;font-size:0.62rem;">
+      Made with <span>♥</span> using Bootstrap + Tailwind CSS + Vanilla JS
+    </div>
+  </div>
+</footer>
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+ 
+
+<script src="https://cdn.tailwindcss.com"></script>
+ 
+<script src="class.js"></script>
+
+</body>
+</html>
+ 
